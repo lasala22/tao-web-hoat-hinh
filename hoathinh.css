@@ -1,0 +1,51 @@
+.logo {
+    background-color:skyblue ;
+    height: 70px;
+    margin-bottom: 10px;
+}
+nav {
+    background-color:hotpink;
+    height: 30px;
+    text-align: center;
+}
+main {
+    margin-top: 10px;
+    margin-bottom: 720px;
+}
+aside, article {
+    float: left;
+    height: 700px;
+}
+aside {
+    width: 30%;
+    background-color: lightgrey;
+    margin-right: 1%;
+    overflow: auto;
+}
+article {
+    width: 68%;
+    background-color: papayawhip;
+}
+footer {
+    clear: both;
+    height: 30px;
+    background-color: lightskyblue;
+}
+.logo > img {
+    height: 100%;
+}
+section > img {
+    width: 100%;
+}
+article > iframe {
+    width: 560px;
+    height: 315px;
+    margin-left: 20%;
+}
+footer > p {
+    text-align: center;
+}
+article > p {
+    padding-left: 10px;
+    text-align: justify;
+}
